@@ -92,6 +92,19 @@ a {
 
 .picture-slide {
   height: 100%;
+  filter: grayscale(50%);
+}
+
+.picture-slide:hover {
+  filter: grayscale(0%);
+}
+
+.about-text {
+  filter: grayscale(50%);
+}
+
+.about-text:hover {
+  filter: grayscale(0%);
 }
 
 .carousel::-webkit-scrollbar {
@@ -152,6 +165,8 @@ a {
   from {opacity: 0;}
   to {opacity:1 ;}
 }
+
+
 
 /* RESPONSIVE DESIGN */
 
