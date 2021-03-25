@@ -14,7 +14,16 @@
       <h1>Hey, I'm Chris</h1>
       <img class="picture-circle" src="images/chris.jpg" alt="Profile picture">
       <p>I'm looking to improve my <strong>technical skills</strong> at Le Wagon! 💻</p>
-      <a class="button-green" href="#">Check out my work here!</a>
+      <div class="popup" onclick="myFunction()"><a class="button-green" href="#">Check out my work here!</a>
+        <span class="popuptext" id="myPopup">Sorry, I don't have anything to show you..😭</span>
+      </div>
+      <script>
+        // When the user clicks on <div>, open the popup
+        function myFunction() {
+          var popup = document.getElementById("myPopup");
+          popup.classList.toggle("show");
+        }
+        </script>
     </div>
     <div class="card">
       <h2>Follow me</h2>
