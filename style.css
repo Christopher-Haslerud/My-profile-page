@@ -146,4 +146,8 @@ a {
     width: 400px;
     height: 400px;
   }
+
+  .button-green {
+    font-size: 12px;
+  }
 }
