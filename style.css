@@ -107,6 +107,12 @@ a {
   .container {
     width: 500px;
   }
+
+  .carousel {
+    width: 400px;
+    height: 500px;
+  }
+
 }
 @media (max-width: 540px) {
   /* For a screen < 540px, this CSS will be read */
@@ -125,5 +131,19 @@ a {
   
   h2 {
     font-size: 26px;
+  }
+
+  .picture-circle {
+    border-radius: 50%;
+    width: 120px;
+  }
+
+  .fab {
+    font-size: 24px;
+  }
+
+  .carousel {
+    width: 400px;
+    height: 400px;
   }
 }
